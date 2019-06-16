@@ -33,11 +33,11 @@ year_total <- 0
 for (row in 1:nrow(approved_grants)){ ##sets bar total to make assembling the d3 chart easier
   year <- approved_grants[row,2]
   if (year == old_year){
-    approved_grants[row, "barTotal"] <- year_total
+    approved_grants[row, "barTotal"] <- year_total + approved_grants[row,9]
     year_total <- year_total + approved_grants[row,9]
   }
   else {
-    approved_grants[row, "barTotal"] <- 0
+    approved_grants[row, "barTotal"] <- approved_grants[row,9]
     year_total <- approved_grants[row,9]
   }
   old_year <- year

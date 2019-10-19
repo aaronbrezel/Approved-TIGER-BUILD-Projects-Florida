@@ -12,6 +12,16 @@ The full visualization is available [here](https://observablehq.com/@aaronbrezel
 
 The code in this repo supports the above visualization. Files include an R program to clean data and various geographic geojson data for the map.
 
+## Static Visuals
+
+Chart and tooltip:
+
+!(TIGER/BUILD Chart)[TIGER_BUILD_CHART.png]
+
+Map and tooltip:
+
+!(TIGER/BUILD Map)[TIGER_BUILD_MAP.png]
+
 ## Resources
 
 - Visualization coded in [D3.js](https://d3js.org/)

@@ -16,11 +16,11 @@ The code in this repo supports the above visualization. Files include an R progr
 
 Chart and tooltip:
 
-!(TIGER/BUILD Chart)[TIGER_BUILD_CHART.png]
+!(TIGER_BUILD Chart)[TIGER_BUILD_CHART.png]
 
 Map and tooltip:
 
-!(TIGER/BUILD Map)[TIGER_BUILD_MAP.png]
+!(TIGER_BUILD Map)[TIGER_BUILD_MAP.png]
 
 ## Resources
 
